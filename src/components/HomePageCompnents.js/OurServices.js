@@ -8,6 +8,8 @@ import {
   webDevAni,
   mobDevAni,
   digitaltTransAni,
+  productD,
+  cloudServices,
 } from "../../assets/index.js";
 
 const OurServices = () => {
@@ -34,7 +36,8 @@ const OurServices = () => {
     <section
       key={refresh}
       ref={servicesRef}
-      className="w-full  py-5 mt-20 mb-5 items-center ">
+      className="w-full  py-5 mt-20 mb-5 items-center "
+    >
       <div className="w-full flex flex-col ">
         <div className="p-5 flex justify-center">
           <h1 className="text-5xl text-coralred font-abelPro font-bold leading-normal">
@@ -56,7 +59,8 @@ const OurServices = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
+            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl "
+          >
             <Lottie
               loop={true}
               animationData={softDevAni}
@@ -66,7 +70,7 @@ const OurServices = () => {
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1 ">
               Custom Software Development
             </h2>
-            <p className="font-abelPro text-[#999999] p-2">
+            <p className="font-abelPro text-[#999999] p-2 overflow-hidden">
               We help you create diverse and complex software solutions for your
               business needs. Listening to your ideas, we implement and create
               custom software solutions from scratch, designed especially for
@@ -85,7 +89,8 @@ const OurServices = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
+            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl "
+          >
             <Lottie
               loop={true}
               animationData={webDevAni}
@@ -94,7 +99,7 @@ const OurServices = () => {
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1">
               Web Application Development
             </h2>
-            <p className="font-abelPro text-[#999999] p-2">
+            <p className="font-abelPro text-[#999999] p-2 overflow-hidden">
               Powered with 3+ years of experience in web design and development,
               the Brocoders team treats our clients as partners, not just
               customers: we trust in your ideas and know how to translate your
@@ -114,7 +119,8 @@ const OurServices = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
+            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl "
+          >
             <Lottie
               loop={true}
               animationData={mobDevAni}
@@ -123,7 +129,7 @@ const OurServices = () => {
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1">
               Mobile Application Development
             </h2>
-            <p className="font-abelPro text-[#999999] p-2">
+            <p className="font-abelPro text-[#999999] p-2 overflow-hidden">
               Bring your products and services closer to their users by
               implementing a custom mobile application developed with your
               business objectives in mind. We know how to do this in a fast and
@@ -143,7 +149,8 @@ const OurServices = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
+            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl "
+          >
             <Lottie
               loop={true}
               animationData={digitaltTransAni}
@@ -152,7 +159,7 @@ const OurServices = () => {
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1 ">
               Digital Transformation
             </h2>
-            <p className="font-abelPro text-[#999999] p-2">
+            <p className="font-abelPro text-[#999999] p-2 overflow-hidden">
               In This digital age, adopting cutting-edge technology, and
               redefining business strategies to stay competitive in the rapidly
               evolving technology landscape. It involves the modernization of
@@ -173,16 +180,17 @@ const OurServices = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
+            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl "
+          >
             <Lottie
               loop={true}
-              animationData={digitaltTransAni}
+              animationData={cloudServices}
               className=" w-full h-[180px] bg-black justify-center items-center"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1 ">
               DevOps and Cloud Services
             </h2>
-            <p className="font-abelPro text-[#999999] p-2">
+            <p className="font-abelPro text-[#999999] p-2 overflow-hidden">
               Faster product development and deployment, enhanced quality and
               efficiency, increased delivery capacity, stability, and resilience
               to failures — all this and more can be brought to you by
@@ -202,10 +210,11 @@ const OurServices = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
+            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl "
+          >
             <Lottie
               loop={true}
-              animationData={digitaltTransAni}
+              animationData={productD}
               className=" w-full h-[180px] bg-black justify-center items-center"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1 hover:text-coralred ">

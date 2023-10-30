@@ -245,6 +245,8 @@ import softDevAni from "../assets/lottieFiles/softwareDev.json";
 import webDevAni from "../assets/lottieFiles/webDev.json";
 import mobDevAni from "../assets/lottieFiles/mobileAppDev.json";
 import digitaltTransAni from "../assets/lottieFiles/digitalTranformation.json";
+import productD from "../assets/lottieFiles/productD.json";
+import cloudServices from "../assets/lottieFiles/cloudServices.json";
 
 export {
   Nextlogo,
@@ -481,4 +483,6 @@ export {
   webDevAni,
   mobDevAni,
   digitaltTransAni,
+  productD,
+  cloudServices,
 };
