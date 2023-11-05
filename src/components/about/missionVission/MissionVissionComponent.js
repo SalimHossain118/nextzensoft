@@ -2,9 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { FcApproval, FcRight } from "react-icons/fc";
 import { vissionImg, missionImg, valuesImg } from "../../../assets/index";
-import { BrowserRouterasRouter } from "react-router-dom";
 
 const MissionVissionComponent = () => {
   return (
@@ -19,27 +17,31 @@ const MissionVissionComponent = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col max-sm:flex-col justify-center p-10">
-        <div className="w-1/2 flex flex-col  justify-center  mx-10 p-5 ">
-          <h1 className="text-5xl text-coralred font-abelPro font-bold leading-normal">
+        className="flex flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col max-sm:flex-col justify-center p-10">
+        <div className="w-full 2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full max-sm:w-full flex flex-col justify-center mx-0 2xl:mx-10 xl:mx-10 lg:mx-10 p-5 ">
+          <h1 className="text-5xl 2xl:text-6xl xl:text-6xl lg:text-6xl text-coralred font-abelPro font-bold leading-normal">
             Our{" "}
-            <span className="text-5xl text-deepBlue font-abelPro font-bold leading-normal">
+            <span className="text-5xl 2xl:text-6xl xl:text-6xl lg:text-6xl text-deepBlue font-abelPro font-bold leading-normal">
               Vission
             </span>
           </h1>
-          <p className="tex-[#999999]  font-abelPro leading-normal">
-            At Nextzensoft , we believe the promise of technology is
-            boundless,but complicated with technical jargon and unknowns.We aim
-            to simplify complex operations , create meaningful user
-            experiences,and deliver sclable , enduring business value. We
-            believe success is combination of satisfied customers,fulfilled
-            employees,and useful solutins. Everything we do is intended to find
-            the right balance of outcomers for the common benifits for all.
+          <p className="text-[#999999] 2xl:text-xl xl:text-xl lg:text-xl font-abelPro leading-normal">
+            At Nextzensoft, we believe the promise of technology is boundless,
+            but complicated with technical jargon and unknowns. We aim to
+            simplify complex operations, create meaningful user experiences, and
+            deliver scalable, enduring business value. We believe success is a
+            combination of satisfied customers, fulfilled employees, and useful
+            solutions. Everything we do is intended to find the right balance of
+            outcomes for the common benefits of all.
           </p>
         </div>
         {/* end of text */}
-        <div>
-          <img src={vissionImg} alt="" height={400} width={400}></img>
+        <div className="w-full 2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full max-sm:w-full flex items-center justify-center">
+          <img
+            src={vissionImg}
+            alt=""
+            className="w-full max-w-xs 2xl:max-w-none xl:max-w-none lg:max-w-none"
+          />
         </div>
         {/* end of photo */}
       </motion.div>
@@ -56,31 +58,29 @@ const MissionVissionComponent = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="flex flex-row justify-center p-10">
-        <div>
-          <img src={missionImg} alt="" height={400} width={400}></img>
+        className="flex flex-col lg:flex-row justify-center p-10">
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
+          <img src={missionImg} alt="" className="h-64 lg:h-80" />
         </div>
 
-        <div className="w-1/2 flex flex-col  justify-center  mx-10 p-5 ">
-          <h1 className="text-5xl text-coralred font-abelPro font-bold leading-normal">
+        <div className="w-full lg:w-1/2 flex flex-col justify-center mx-0 lg:mx-10 p-5">
+          <h1 className="text-5xl lg:text-6xl text-coralred font-abelPro font-bold leading-normal">
             Our{" "}
-            <span className="text-5xl text-[#193E65] font-abelPro font-bold leading-normal">
+            <span className="text-5xl lg:text-6xl text-[#193E65] font-abelPro font-bold leading-normal">
               Mission
             </span>
           </h1>
-          <p className="tex-[#999999] font-abelPro leading-normal">
-            We are a team of driven exparts.We are passionately committed to
+          <p className="text-[#999999] font-abelPro leading-normal">
+            We are a team of driven experts. We are passionately committed to
             wrestling with the most complex business problems and applying
-            technology systematically to solve them.we don't take a
-            transactional approach to our engagenments.Rather, we foster
+            technology systematically to solve them. We don't take a
+            transactional approach to our engagements. Rather, we foster
             personalized relationships built on trust and perpetual delivery of
-            benefit over time. At Nextzensoft,we empower through technology.
+            benefit over time. At Nextzensoft, we empower through technology.
           </p>
         </div>
-        {/* end of text */}
-
-        {/* end of photo */}
       </motion.div>
+
       {/* end of mission */}
       <motion.div
         initial={{ x: 100, opacity: 0 }}
@@ -92,11 +92,11 @@ const MissionVissionComponent = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="flex flex-row justify-center p-10">
-        <div className="w-1/2 flex flex-col  justify-center  mx-10 p-5 ">
-          <h1 className="text-5xl text-coralred font-abelPro font-bold leading-normal">
+        className="flex flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col max-sm:flex-col justify-center p-10">
+        <div className="w-full 2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full max-sm:w-full flex flex-col justify-center mx-0 2xl:mx-10 xl:mx-10 lg:mx-10 p-5">
+          <h1 className="text-5xl 2xl:text-6xl xl:text-6xl lg:text-6xl md:text-5xl sm:text-5xl max-sm:text-5xl text-coralred font-abelPro font-bold leading-normal">
             Our{" "}
-            <span className="text-5xl text-[#193E65] font-abelPro font-bold leading-normal">
+            <span className="text-5xl 2xl:text-6xl xl:text-6xl lg:text-6xl md:text-5xl sm:text-5xl max-sm:text-5xl text-[#193E65] font-abelPro font-bold leading-normal">
               Values
             </span>
           </h1>
@@ -135,11 +135,16 @@ const MissionVissionComponent = () => {
           </div>
         </div>
         {/* end of text */}
-        <div>
-          <img src={valuesImg} alt="" height={400} width={400}></img>
+        <div className="w-full 2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full max-sm:w-full flex items-center justify-center">
+          <img
+            src={valuesImg}
+            alt=""
+            className="w-full max-w-xs 2xl:max-w-none xl:max-w-none lg:max-w-none"
+          />
         </div>
         {/* end of photo */}
       </motion.div>
+
       {/* end of value */}
     </section>
   );

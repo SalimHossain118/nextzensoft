@@ -11,7 +11,7 @@ import TechnoloweUsed from "../CusSoftDevPageComponents/TechnoloweUsed";
 const FoodTechPage = () => {
   return (
     <section className="w-full  py-0 ">
-      <div className="w-full h-[100vh] flex flex-col justify-end items-end bg-healthcareBG bg-center bg-cover mb-10">
+      <div className="w-full h-[100vh] flex flex-col justify-end items-end bg-foodTechBg bg-center bg-cover">
         <div className="w-full   relative">
           <Wave
             fill="#C1250399"

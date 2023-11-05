@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="w-full py-3 p-10 items-center mt-5 bg-[#241468] ">
+    <section className="w-full py-3 p-10 items-center  bg-[#241468] ">
       <div className="w-full py-10 h-auto md:h-auto lg:h-auto border-b-[1px] border-gray-300 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="w-full h-full md:col-span-2 lg:col-span-1">
           <h2 className="text-xl md:text-2xl uppercase text-coralred tracking-wider">

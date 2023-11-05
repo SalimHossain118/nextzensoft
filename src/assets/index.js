@@ -1,7 +1,7 @@
 /** @format */
 
 import logo from "./images/logo.png";
-import Nextlogo from "./images/NZS_Logo.svg";
+import Nextlogo from "./images/nextZenSoft.png";
 import bannerImg from "./images/bannerImg.png";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
@@ -29,6 +29,7 @@ import vaskar from "./images/team/vaskar.jpg";
 import samiurRahman from "./images/team/samiurRahman.jpeg";
 import mukit from "./images/team/pk.png";
 import ashikurRakhman from "./images/team/pk.png";
+import md_al_amin from "./images/team/alAmin.jpeg";
 
 // heroes
 import banner1 from "./images/bannerOne.png";
@@ -244,9 +245,9 @@ import jsCompat from "../assets/iconsnew/icon_compact.png";
 import ioT_wewable from "../assets/iconsnew/iotwearable.svg";
 
 // icon new
-import c_call from "../assets/iconsnew/contact_cell.svg";
-import c_email from "../assets/iconsnew/cont_email.svg";
-import c_clock from "../assets/iconsnew/contact_clock.svg";
+import c_call from "../assets/iconsnew/Call.png";
+import c_email from "../assets/iconsnew/email.png";
+import c_clock from "../assets/iconsnew/Time.png";
 import c_email1 from "../assets/iconsnew/email.png";
 
 // => career benifits icons
@@ -289,6 +290,39 @@ import mobDevAni from "../assets/lottieFiles/mobileAppDev.json";
 import digitaltTransAni from "../assets/lottieFiles/digitalTranformation.json";
 import cloudServiceAni from "../assets/lottieFiles/cloud.json";
 import productDevAni from "../assets/lottieFiles/productDev.svg";
+
+// Mobile Deve Page =>
+import MoD_ImageOne from "../assets/imagesNew/mobApp1.png";
+import MoD_natApp from "../assets/imagesNew/ntMobApp.png";
+import MoD_hybridApp from "../assets/imagesNew/hyBrid.png";
+import MoD_nativeApp from "../assets/imagesNew/native.svg";
+import MoD_webMobApp from "../assets/imagesNew/webMomapp.png";
+import MoD_WearableApp from "../assets/imagesNew/smartwatch.png";
+
+// MobDevPage Icon
+import MomDev_soiftIcon from "../assets/iconsnew/swiftIcon.svg";
+import MomDev_I0s_1_3 from "../assets/iconsnew/1-3.svg";
+import MomDev_I0s_1_5 from "../assets/iconsnew/1-5.svg";
+import MomDev_I0s_1_2 from "../assets/iconsnew/1-2.svg";
+import MomDev_I0s_1_7 from "../assets/iconsnew/1-7.svg";
+import MomDev_I0s_1_6 from "../assets/iconsnew/1-6.svg";
+// android
+import MomDev_Andr_ktln from "../assets/iconsnew/kotlin.svg";
+import MomDev_Andr_java from "../assets/iconsnew/a_java.svg";
+import MomDev_Andr_gradle from "../assets/iconsnew/gradle.svg";
+import MomDev_Andr_gragg from "../assets/iconsnew/dagger.svg";
+import MomDev_Andr_jackpot from "../assets/iconsnew/jackpet.svg";
+// cross platform
+import MomDev_Cross_flutter from "../assets/iconsnew/Flutter.svg";
+import MomDev_Cross_Na_react from "../assets/iconsnew/Na_react.svg";
+import MomDev_Cross_Js from "../assets/iconsnew/js.svg";
+import MomDev_Cross_Typsc from "../assets/iconsnew/typescript.svg";
+//responsive
+import MomDev_Res_react from "../assets/iconsnew/3-1.svg";
+import MomDev_Res_anguler from "../assets/iconsnew/4-2.svg";
+import MomDev_Res_redux from "../assets/iconsnew/4-3.svg";
+import MomDev_Res_polymer from "../assets/iconsnew/4-4.svg";
+import MomDev_Res_workbox from "../assets/iconsnew/4-5.svg";
 
 export {
   Nextlogo,
@@ -548,6 +582,7 @@ export {
   mukit,
   ashikurRakhman,
   ibnul,
+  md_al_amin,
 
   // => career benifits icons
   car_stEmp,
@@ -568,4 +603,36 @@ export {
   car_interview,
   car_flowUp,
   car_Job_offer,
+
+  // MobDev =>
+  MoD_ImageOne,
+  MoD_natApp,
+  MoD_hybridApp,
+  MoD_nativeApp,
+  MoD_webMobApp,
+  MoD_WearableApp,
+  // mobDev_Icon
+  MomDev_soiftIcon,
+  MomDev_I0s_1_3,
+  MomDev_I0s_1_5,
+  MomDev_I0s_1_2,
+  MomDev_I0s_1_7,
+  MomDev_I0s_1_6,
+  // android
+  MomDev_Andr_ktln,
+  MomDev_Andr_java,
+  MomDev_Andr_gradle,
+  MomDev_Andr_gragg,
+  MomDev_Andr_jackpot,
+  // cross platform
+  MomDev_Cross_flutter,
+  MomDev_Cross_Na_react,
+  MomDev_Cross_Js,
+  MomDev_Cross_Typsc,
+  // responsive
+  MomDev_Res_react,
+  MomDev_Res_anguler,
+  MomDev_Res_redux,
+  MomDev_Res_polymer,
+  MomDev_Res_workbox,
 };

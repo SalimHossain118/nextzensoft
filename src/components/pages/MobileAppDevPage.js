@@ -1,21 +1,25 @@
 /** @format */
 
-import React, { useState } from "react";
+import React from "react";
 import Wave from "react-wavify";
 import MobAppMainCompo from "../MobileAppDevCompo/MobAppMainCompo";
 import Sdlc from "../servicePageCompnents/Sdlc";
 import WorkProcess from "../servicePageCompnents/WorkProces";
 import TechnoloweUsed from "../CusSoftDevPageComponents/TechnoloweUsed";
 import MobileFaq from "../accordoin/MobileFaq";
+import MobAppService from "../MobileAppDevCompo/MobAppService";
+import FlatfromWeServe from "../MobileAppDevCompo/FlatfromWeServe";
+import PlatfromDescrip from "../MobileAppDevCompo/PlatfromDescrip";
+import IndustryWeServe from "../about/IndustryWeServe";
 
 const MobileAppDevPage = () => {
   return (
-    <section className="w-full justify-center py-0 ">
+    <section className="w-full justify-center items-center py-0 ">
       {" "}
-      <div className="w-full h-[100vh] flex flex-col justify-end items-end bg-mobileAppDeV mb-10">
+      <div className="w-full h-[100vh] flex flex-col justify-end items-end bg-cover  bg-mobileAppDeV mb-10">
         <div className="w-full   relative">
           <Wave
-            fill="#C1250399"
+            fill="#2a65db"
             fillOpacity=".7"
             paused={false}
             style={{ display: "flex" }}
@@ -42,7 +46,10 @@ const MobileAppDevPage = () => {
         </div>
       </div>
       {/* end of hero section component */}
-      <MobAppMainCompo />
+      <MobAppService />
+      <FlatfromWeServe />
+      <PlatfromDescrip />
+      <IndustryWeServe />
       <Sdlc />
       <WorkProcess />
       <TechnoloweUsed />

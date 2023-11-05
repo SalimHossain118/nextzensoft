@@ -2,7 +2,6 @@
 
 import React from "react";
 import {
-  fintech,
   resultBasedImg,
   flexibleImg,
   transparentImg,
@@ -14,7 +13,7 @@ import {
 const WhyUs = () => {
   return (
     <section className="w-full  py-5 mb-5 mt-5 items-center">
-      <div className="w-full flex flex-col ">
+      <div className="w-full flex flex-col mx-3 ">
         <div className="p-5 flex justify-center">
           <h1 className="text-5xl text-coralred font-abelPro font-bold leading-normal">
             Why{" "}

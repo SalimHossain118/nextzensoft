@@ -54,21 +54,20 @@ const OurServices = () => {
             transition={{
               delay: 0.3,
               x: { type: "spring", stiffness: 60 },
-              opacity: { duration: 1 },
+              opacity: { duration: 0 },
               ease: "easeIn",
               duration: 2,
+              loop: true,
             }}
             className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
             <Lottie
               loop={true}
               animationData={softDevAni}
-              className=" w-full h-[180px] bg-black justify-center items-center"
+              className=" ourServiceLottie"
             />
 
-            <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1 ">
-              Custom Software Development
-            </h2>
-            <p className="font-abelPro text-[#999999] p-2">
+            <h2 className="ourServiceH2 ">Custom Software Development</h2>
+            <p className="ourServiceP">
               We help you create diverse and complex software solutions for your
               business needs. Listening to your ideas, we implement and create
               custom software solutions from scratch, designed especially for
@@ -83,7 +82,7 @@ const OurServices = () => {
             transition={{
               delay: 0.3,
               y: { type: "spring", stiffness: 60 },
-              opacity: { duration: 1 },
+              opacity: { duration: 0 },
               ease: "easeIn",
               duration: 2,
             }}
@@ -91,12 +90,10 @@ const OurServices = () => {
             <Lottie
               loop={true}
               animationData={webDevAni}
-              className=" w-full h-[180px] bg-black justify-center items-center"
+              className="ourServiceLottie"
             />
-            <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1">
-              Web Application Development
-            </h2>
-            <p className="font-abelPro text-[#999999] p-2">
+            <h2 className="ourServiceH2">Web Application Development</h2>
+            <p className="ourServiceP">
               Powered with 3+ years of experience in web design and development,
               the Brocoders team treats our clients as partners, not just
               customers: we trust in your ideas and know how to translate your
@@ -112,7 +109,7 @@ const OurServices = () => {
             transition={{
               delay: 0.3,
               x: { type: "spring", stiffness: 60 },
-              opacity: { duration: 1 },
+              opacity: { duration: 0 },
               ease: "easeIn",
               duration: 2,
             }}
@@ -120,12 +117,10 @@ const OurServices = () => {
             <Lottie
               loop={true}
               animationData={mobDevAni}
-              className=" w-full h-[180px] bg-black justify-center items-center"
+              className="ourServiceLottie"
             />
-            <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1">
-              Mobile Application Development
-            </h2>
-            <p className="font-abelPro text-[#999999] p-2">
+            <h2 className="ourServiceH2">Mobile Application Development</h2>
+            <p className="ourServiceP">
               Bring your products and services closer to their users by
               implementing a custom mobile application developed with your
               business objectives in mind. We know how to do this in a fast and
@@ -141,7 +136,7 @@ const OurServices = () => {
             transition={{
               delay: 0.3,
               x: { type: "spring", stiffness: 60 },
-              opacity: { duration: 1 },
+              opacity: { duration: 0 },
               ease: "easeIn",
               duration: 2,
             }}
@@ -149,12 +144,10 @@ const OurServices = () => {
             <Lottie
               loop={true}
               animationData={digitaltTransAni}
-              className=" w-full h-[180px] bg-black justify-center items-center"
+              className="ourServiceLottie"
             />
-            <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1 ">
-              Digital Transformation
-            </h2>
-            <p className="font-abelPro text-[#999999] p-2">
+            <h2 className="ourServiceH2">Digital Transformation</h2>
+            <p className="ourServiceP">
               In This digital age, adopting cutting-edge technology, and
               redefining business strategies to stay competitive in the rapidly
               evolving technology landscape. It involves the modernization of
@@ -171,7 +164,7 @@ const OurServices = () => {
             transition={{
               delay: 0.3,
               y: { type: "spring", stiffness: 60 },
-              opacity: { duration: 1 },
+              opacity: { duration: 0 },
               ease: "easeIn",
               duration: 2,
             }}
@@ -179,12 +172,10 @@ const OurServices = () => {
             <Lottie
               loop={true}
               animationData={cloudServiceAni}
-              className=" w-full h-[180px] bg-black justify-center items-center"
+              className="ourServiceLottie"
             />
-            <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1 ">
-              DevOps and Cloud Services
-            </h2>
-            <p className="font-abelPro text-[#999999] p-2">
+            <h2 className="ourServiceH2">DevOps and Cloud Services</h2>
+            <p className="ourServiceP">
               Faster product development and deployment, enhanced quality and
               efficiency, increased delivery capacity, stability, and resilience
               to failures — all this and more can be brought to you by
@@ -200,20 +191,14 @@ const OurServices = () => {
             transition={{
               delay: 0.3,
               x: { type: "spring", stiffness: 60 },
-              opacity: { duration: 1 },
+              opacity: { duration: 0 },
               ease: "easeIn",
               duration: 2,
             }}
             className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
-            <img
-              src={productDevAni}
-              alt=""
-              className=" w-full h-[180px] bg-black justify-center items-center"
-            />
-            <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1 hover:text-coralred ">
-              Product Development
-            </h2>
-            <p className="font-abelPro text-[#999999] p-2">
+            <img src={productDevAni} alt="" className=" ourServiceLottie" />
+            <h2 className="ourServiceH2">Product Development</h2>
+            <p className="ourServiceP">
               We are ready to either polish your MVP so you can reach a
               Product-Market Fit and start gaining decent traction or underpin
               your product with additional powerful features that make your

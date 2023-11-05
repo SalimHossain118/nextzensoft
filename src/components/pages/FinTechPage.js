@@ -12,8 +12,8 @@ import IndustryWeServe from "../about/IndustryWeServe";
 
 const FinTechPage = () => {
   return (
-    <section className="w-full  py-0 ">
-      <div className="w-full h-[100vh] flex flex-col justify-end items-end bg-center bg-cover bg-fintechBg mb-10">
+    <section className="w-full flex flex-col justify-center items-center  py-0 ">
+      <div className="w-full h-[100vh] flex flex-col justify-end items-center bg-cover bg-center bg-fintechBg  ">
         <div className="w-full   relative">
           <Wave
             fill="#9447d5"

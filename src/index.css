@@ -50,6 +50,19 @@
   .reEstHeadOne {
     @apply text-2xl lg:text-2xl max-lg:text-2xl xl:text-2xl max-xl:text-3xl md:text-xl max-sm:text-xl sm:text-xl text-white font-abelPro font-bold hover:text-designColor;
   }
+  .ourServiceLottie {
+    @apply w-full h-[180px] bg-black justify-center items-center rounded-tl-2xl rounded-tr-2xl;
+  }
+  .ourServiceH2 {
+    @apply font-abelPro text-2xl text-coralred font-bold p-1;
+  }
+  .ourServiceP {
+    @apply font-abelPro text-deepBlue p-2;
+  }
+
+  .whyCustomSoftwareCard {
+    @apply h-[250px] flex flex-col p-3 shadow-2xl rounded-2xl justify-start items-start  hover:bg-orange-500;
+  }
 }
 
 .abel-font {

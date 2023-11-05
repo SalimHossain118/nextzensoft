@@ -8,6 +8,7 @@ import WorkProcess from "../servicePageCompnents/WorkProces";
 import TechnoloweUsed from "../CusSoftDevPageComponents/TechnoloweUsed";
 import Accotdoin from "../accordoin/Accotdoin";
 import WebFaQ from "../accordoin/WebFaQ";
+import IndustryWeServe from "../about/IndustryWeServe";
 
 const WebAppDevPage = () => {
   return (
@@ -41,9 +42,10 @@ const WebAppDevPage = () => {
       </div>
       {/* end of hero section */}
       <WebAppMainCompo />
+      <IndustryWeServe />
+      <TechnoloweUsed />
       <WebAppDevDdlc />
       <WorkProcess />
-      <TechnoloweUsed />
       <WebFaQ />
     </section>
   );

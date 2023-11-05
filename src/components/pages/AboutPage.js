@@ -7,14 +7,13 @@ import Wave from "react-wavify";
 import MissionVissionComponent from "../about/missionVission/MissionVissionComponent.js";
 import { motion } from "framer-motion";
 import IndustryWeServe from "../about/IndustryWeServe.js";
-import Technologies from "./../technologyWeUsed/Technologies.js";
 import WhoWeAre from "../about/WhoWeAre.js";
 import WhyUs from "../about/WhyUs.js";
 
 const AboutPage = () => {
   return (
     <section className="w-full justify-center py-0 ">
-      <div className="w-full h-[100vh] flex flex-col justify-end items-end bg-aboutHeroBg ">
+      <div className="w-full h-[100vh] flex flex-col justify-end items-end bg-center bg-cover bg-aboutHeroBg ">
         <div className="w-full   relative">
           <Wave
             fill="#C1250399"

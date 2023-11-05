@@ -62,7 +62,7 @@ const GetInTouchPage = () => {
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-4xl font-semibold">
               <div className="flex flex-row p-2">
                 <h1 className="text-4xl text-white font-semibold mt-3">
-                  Dhaka Office
+                  Dhaka
                 </h1>
                 <img src="" alt="" className="" />
               </div>
@@ -87,11 +87,10 @@ const GetInTouchPage = () => {
                 <img src="" alt="" className="" />
               </div>
 
-              <p className="text-xs">
-                1/B Thamina Bhaban, Mirpur 1, Dhaka 1216,
-              </p>
-              <p className="text-xs mb-1">Bangladesh</p>
-              <p className="text-xs mb-1">Cell: 008801991-730274</p>
+              <p className="text-xs">3244 James Avenue</p>
+              <p className="text-xs"> Syracuse, New York,</p>
+              <p className="text-xs mb-1">USA</p>
+              <p className="text-xs mb-1">Cell:+1(631)-579-5051</p>
               <p className="text-xs">Email: info.zextzensoft@nextzensoft.com</p>
             </div>
           </div>
@@ -106,11 +105,10 @@ const GetInTouchPage = () => {
                 <img src="" alt="" className="" />
               </div>
 
-              <p className="text-xs">
-                1/B Thamina Bhaban, Mirpur 1, Dhaka 1216,
-              </p>
-              <p className="text-xs mb-1">Bangladesh</p>
-              <p className="text-xs mb-1">Cell: 008801991-730274</p>
+              <p className="text-xs">4309 Barnes Avenue, Cincinnati</p>
+              <p className="text-xs">, Ohio 45202,</p>
+              <p className="text-xs mb-1">USA</p>
+              <p className="text-xs mb-1">Cell: +1(513)-708-7674</p>
               <p className="text-xs">Email: info.zextzensoft@nextzensoft.com</p>
             </div>
           </div>
@@ -126,10 +124,11 @@ const GetInTouchPage = () => {
               </div>
 
               <p className="text-xs">
-                1/B Thamina Bhaban, Mirpur 1, Dhaka 1216,
+                65, Medan Burhanuddin Helmi,Taman Tun Dr Ismail,
               </p>
-              <p className="text-xs mb-1">Bangladesh</p>
-              <p className="text-xs mb-1">Cell: 008801991-730274</p>
+              <p className="text-xs">TTDI, Kuala Lumpur,60000</p>
+              <p className="text-xs mb-1">Malaysia</p>
+              <p className="text-xs mb-1">Cell: +60 11-6055 5235</p>
               <p className="text-xs">Email: info.zextzensoft@nextzensoft.com</p>
             </div>
           </div>
@@ -145,11 +144,10 @@ const GetInTouchPage = () => {
                 <img src="" alt="" className="" />
               </div>
 
-              <p className="text-xs">
-                1/B Thamina Bhaban, Mirpur 1, Dhaka 1216,
-              </p>
-              <p className="text-xs mb-1">Bangladesh</p>
-              <p className="text-xs mb-1">Cell: 008801991-730274</p>
+              <p className="text-xs">Würzburger Landstraße 28,</p>
+              <p className="text-xs">91522, Ansbach</p>
+              <p className="text-xs mb-1">Germany</p>
+              <p className="text-xs mb-1">Cell: +4917684035253</p>
               <p className="text-xs">Email: info.zextzensoft@nextzensoft.com</p>
             </div>
           </div>

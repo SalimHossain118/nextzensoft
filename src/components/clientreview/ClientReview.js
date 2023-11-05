@@ -5,14 +5,7 @@ import Slider from "react-slick";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import { RiStarFill } from "react-icons/ri";
 import ClientReviewTitle from "../layouts/ClientReviewTitle.js";
-import {
-  salimTest,
-  ibnuTest,
-  sabbirTest,
-  testimonialOne,
-  testimonialTwo,
-  quote,
-} from "../../assets";
+import { dummyPhoto, quote } from "../../assets";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -104,7 +97,7 @@ const ClientReview = () => {
               <div className="w-full md:w-[35%] bg-[#241468] hover:bg-[#1C1F35] p-4 md:p-8 rounded-lg shadow-yellow-200 flex flex-col justify-center gap-4">
                 <img
                   className="h-72 md:h-96 rounded-lg object-cover"
-                  src={salimTest}
+                  src={dummyPhoto}
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
@@ -115,7 +108,7 @@ const ClientReview = () => {
                     Md Salim Hossain
                   </h3>
                   <p className="text-base font-adventPro tracking-wide text-designColor">
-                    Software Engineer
+                    VP- IT Systems
                   </p>
                 </div>
               </div>
@@ -140,11 +133,11 @@ const ClientReview = () => {
                     </div>
                   </div>
                   <p className=" font-adventPro text-[#666C89] font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                    "Nextzensoft's approach to technology and software
+                    development is unlike anything I have had the privileged to
+                    be a part of and I have worked and collaborated with some of
+                    the biggest names in IT such as IBM, AOL, Sapient, and
+                    QinetiQ."
                   </p>
                 </div>
               </div>
@@ -156,7 +149,7 @@ const ClientReview = () => {
               <div className="w-full md:w-[35%]  bg-[#241468] hover:bg-[#1C1F35] p-4 md:p-8 rounded-lg shadow-yellow-200 flex flex-col justify-center gap-4">
                 <img
                   className="h-72 md:h-96 rounded-lg object-cover"
-                  src={sabbirTest}
+                  src={dummyPhoto}
                   alt="testimonialTwo"
                 />
                 <div className="w-full flex flex-col justify-end">
@@ -164,7 +157,7 @@ const ClientReview = () => {
                     Sabbir Rahman
                   </h3>
                   <p className="text-base font-adventPro tracking-wide text-designColor">
-                    Software Engineer
+                    CEO
                   </p>
                 </div>
               </div>
@@ -174,10 +167,10 @@ const ClientReview = () => {
                   <div className="flex justify-between items-center py-3 md:py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-4xl font-abelPro text-[#193E65] font-bold tracking-wide">
-                        Travel Mobile App Design
+                        Restaurant Management Software
                       </h3>
                       <p className="font-adventPro text-2xl text-designColor mt-2">
-                        XYZ Company Limited.
+                        Treple Nine Restaurant
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -189,11 +182,10 @@ const ClientReview = () => {
                     </div>
                   </div>
                   <p className=" font-adventPro text-[#666C89] font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                    Nextzensoft team are the best which I ever worked with. They
+                    have given me a great services and thire services are
+                    excellent. I am working with them in past 2 years on 2 to 3
+                    projects and still continuing my projects with them.
                   </p>
                 </div>
               </div>
@@ -205,7 +197,7 @@ const ClientReview = () => {
               <div className="w-full md:w-[35%] bg-[#241468] hover:bg-[#1C1F35] p-4 md:p-8 rounded-lg shadow-yellow-200 flex flex-col justify-center gap-4">
                 <img
                   className="h-72 md:h-96 rounded-lg object-cover"
-                  src={ibnuTest}
+                  src={dummyPhoto}
                   alt="testimonialThree"
                 />
                 <div className="w-full flex flex-col justify-end">
@@ -213,7 +205,7 @@ const ClientReview = () => {
                     Ibnul Hossain
                   </h3>
                   <p className="text-base font-adventPro tracking-wide text-designColor">
-                    Software Engineer
+                    Tech Lead
                   </p>
                 </div>
               </div>
@@ -223,10 +215,10 @@ const ClientReview = () => {
                   <div className="flex justify-between items-center py-3 md:py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-4xl font-abelPro text-[#193E65] font-bold tracking-wide">
-                        Travel Mobile App Design
+                        Cross Platfrom Mobile App Development
                       </h3>
                       <p className="font-adventPro text-2xl text-designColor mt-2">
-                        XYZ Company Limited.
+                        Via Upwork Inc
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -238,11 +230,9 @@ const ClientReview = () => {
                     </div>
                   </div>
                   <p className=" font-adventPro text-[#666C89] font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                    “Nextzensoft team has amazing programmers and they worked on
+                    a project owned by the HILTON for me. I can only say that
+                    you ask it and they do it...it can be done!”
                   </p>
                 </div>
               </div>

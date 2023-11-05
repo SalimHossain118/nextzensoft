@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const WhoWeAre = () => {
   return (
-    <section className="w-full flex flex-col pt-10 md:pt-20 py-5 md:py-10 pb-20 md:pb-40 justify-center items-center bg-[#f5f5f5] ">
+    <section className="w-full flex flex-col pt-10 md:pt-20  md:py-10 pb-20 md:pb-40 justify-center items-center bg-[#f5f5f5] ">
       <motion.div
         initial={{ x: -100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}

@@ -14,6 +14,7 @@ import {
   bangladesh,
   japan,
   ibnul,
+  md_al_amin,
 } from "../../assets/index.js";
 export const responsive = {
   superLargeDesktop: {
@@ -141,28 +142,7 @@ export const developertData = [
     country: bangladesh,
     countryName: "USA",
   },
-  {
-    id: 7,
-    image: dummyPhoto,
-    name: "S.M Abdul Mukit ",
-    deg: "Quality Assurance Engineer",
-    experience:
-      "Experienced Quality Assurance Engineer, with more than two years of experience in the industry. ",
-    tech: "Javascript,Php,Mysql",
-    country: bangladesh,
-    countryName: "USA",
-  },
-  {
-    id: 7,
-    image: dummyPhoto,
-    name: "Jaria Sultana ",
-    deg: "Quality Assurance Engineer",
-    experience:
-      " Experienced Quality Assurance Engineer, with more than two years of experience in the industry. ",
-    tech: "Javascript,Php,Mysql",
-    country: bangladesh,
-    countryName: "USA",
-  },
+
   {
     id: 8,
     image: dummyPhoto,
@@ -185,5 +165,16 @@ export const developertData = [
     tech: "JavaScript, ReactJs, React Native, Node.js, Express, Php, Laravel, WordPress, MySql, MongoDB, Server Administration, Server Management.",
     country: bangladesh,
     countryName: "Malaysia",
+  },
+  {
+    id: 9,
+    image: md_al_amin,
+    name: "Md Al Amin",
+    deg: "Lead Backend Engineer",
+    experience:
+      " Experienced Back-End software engineer with more than ten years of experience in the industry. ",
+    tech: "PHP, Laravel, CodeIgniter, Wordpress Shopify, AWS, REST API, MYSQL, Oracle Developer, Oracle Database.",
+    country: bangladesh,
+    countryName: "Bangladesh",
   },
 ];

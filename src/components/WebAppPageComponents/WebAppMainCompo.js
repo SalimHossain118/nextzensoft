@@ -33,20 +33,10 @@ const WebAppMainCompo = () => {
           </p>
         </div>
 
-        <div className="w-full sm:w-[90vw] lg:w-[80vw] xl:w-[70vw] h-auto flex flex-row mt-5 justify-center items-center gap-5 p-10">
-          <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{
-              delay: 0.3,
-              x: { type: "spring", stiffness: 60 },
-              opacity: { duration: 1 },
-              ease: "easeIn",
-              duration: 2,
-            }}
-            className="w-full sm:w-1/2 flex flex-col p-5">
-            <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal mb-2 p-2">
-              Front-end development
+        <div className="w-full gap-10 flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col max-sm:flex-col justify-center items-center p-3 mx-2 ">
+          <div className=" w-[400px] h-[300px] flex flex-col shadow-2xl rounded-2xl mx-2 p-5 hover:translate-x-1">
+            <h1 className="text-xl sm:text-xl text-coralred font-abelPro font-bold leading-normal mb-2 p-2">
+              <span className="text-7xl ">F</span>ront-end development
             </h1>
             <p className="text-[#999999] font-abelPro leading-normal">
               Create an application with an intuitive visual interface, or a
@@ -55,30 +45,10 @@ const WebAppMainCompo = () => {
               websites and web apps in alignment with your business purposes and
               brand, as well as stand up to design challenges of any complexity.
             </p>
-            <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal mb-2 p-2">
-              DevOps and cloud infrastructure
-            </h1>
-            <p className="text-[#999999] font-abelPro leading-normal">
-              Accelerate your business’ response to challenges of the modern
-              business environment, where workload agility, efficiency, and
-              flawless performance have become absolute necessities, and
-              optimize testing and deployment costs significantly with DevOps
-              services and cloud adoption.
-            </p>
-          </motion.div>
-          <motion.div
-            initial={{ y: -100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{
-              delay: 0.3,
-              y: { type: "spring", stiffness: 60 },
-              opacity: { duration: 1 },
-              ease: "easeIn",
-              duration: 2,
-            }}
-            className="w-full sm:w-1/2 flex flex-col p-5">
-            <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal mb-2 p-2">
-              Back-end development
+          </div>
+          <div className=" w-[400px] h-[300px] flex flex-col shadow-2xl rounded-2xl mx-2 p-5 hover:translate-x-1">
+            <h1 className="text-xl sm:text-xl text-coralred font-abelPro font-bold leading-normal mb-2 p-2">
+              <span className="text-7xl ">B</span>Back-end development
             </h1>
             <p className="text-[#999999] font-abelPro leading-normal">
               Drive your product performance to new heights with powerful,
@@ -87,10 +57,29 @@ const WebAppMainCompo = () => {
               of business logic realization and secure you from any troubles on
               the server side or in the system core.
             </p>
-            <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal mb-2 p-2">
-              Quality assurance
+          </div>
+        </div>
+        {/* 1 */}
+
+        <div className="w-full gap-10 flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col max-sm:flex-col justify-center items-center p-3 mx-2 ">
+          <div className=" w-[400px] h-[300px] flex flex-col shadow-2xl rounded-2xl mx-2 p-5 hover:translate-x-1">
+            <h1 className="text-xl sm:text-xl text-coralred font-abelPro font-bold leading-normal mb-2 p-2">
+              <span className="text-7xl ">D</span>
+              evOps and cloud infrastructure
             </h1>
-            <p className="text-[#999999] font-abelPro leading-normal">
+            <p className="text-deepBlue font-abelPro leading-normal">
+              Accelerate your business’ response to challenges of the modern
+              business environment, where workload agility, efficiency, and
+              flawless performance have become absolute necessities, and
+              optimize testing and deployment costs significantly with DevOps
+              services and cloud adoption.
+            </p>
+          </div>
+          <div className=" w-[400px] h-[300px] flex flex-col shadow-2xl rounded-2xl mx-2 p-5 hover:translate-x-1">
+            <h1 className="text-xl sm:text-xl text-coralred font-abelPro font-bold leading-normal mb-2 p-2">
+              <span className="text-7xl ">Q</span>uality assurance
+            </h1>
+            <p className="text-deepBlue font-abelPro leading-normal">
               Bring the top-notch user experience by assuring the seamless and
               bug-free performance of your web application. Throughout the
               development cycle, we provide QA and all sorts of software testing
@@ -98,8 +87,9 @@ const WebAppMainCompo = () => {
               efficiency along with proactivity in risk prediction,
               identification, and prevention.
             </p>
-          </motion.div>
+          </div>
         </div>
+        {/* 2 */}
       </div>
     </div>
   );
